@@ -9,10 +9,10 @@
     <Grid Style="{StaticResource ContentRoot}">
         <ScrollViewer>
                 <Grid Style="{StaticResource ContentRoot}">
-                    <mui:ModernTab SelectedSource="/Content/LoremIpsum.xaml#1" Layout="List">
+                    <mui:ModernTab Name="ModernTab" SelectedSource="/Pages/MovieDetail.xaml" Layout="List">
                         <mui:ModernTab.Links>
-                            <mui:Link DisplayName="Lorem Ipsum 1" Source="/Content/LoremIpsum.xaml#1" />
-                            <mui:Link DisplayName="Lorem Ipsum 2" Source="/Content/LoremIpsum.xaml#2" />
+                            <mui:Link DisplayName="Lorem Ipsum 1" Source="/Pages/MovieDetail.xaml"/>
+                            <mui:Link DisplayName="Lorem Ipsum 2" Source="/Pages/MovieDetail.xaml" />
                         </mui:ModernTab.Links>
                     </mui:ModernTab>
                 </Grid>
