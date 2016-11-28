@@ -1,0 +1,27 @@
+!1 English to image translation
+
+!***> Initialization
+!|import|
+|MovieAppApi.Fixtures|
+
+*!
+
+!*** Description 
+The system must be able to show an image representing a given movie. Below, a test table is
+shown in order to check that this requisite is satisfied
+
+*!
+
+!*** Verification for movie "Titanic"
+!|Script|Show image|
+|Show image for movie|Titanic|
+
+ http://files/fitnesse/images/fixture_temps/Titanic.jpg
+*!
+
+!*** Verification for movie "El sexto sentido"
+!|Script|Show image|
+|Show image for movie|El sexto sentido|
+
+ http://files/fitnesse/images/fixture_temps/El_sexto_sentido.jpg
+*!

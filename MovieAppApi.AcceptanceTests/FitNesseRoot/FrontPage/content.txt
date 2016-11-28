@@ -1,0 +1,23 @@
+!1 VISUAL TRANSLATOR
+!2    SPECIFICATION AND ACCEPTANCE TESTS
+
+!***> Initialization
+!define TEST_SYSTEM {slim}
+!define COMMAND_PATTERN {%m -r fitSharp.Slim.Service.Runner,FitSharp\fitsharp.dll %p}
+!define TEST_RUNNER {FitSharp\Runner.exe}
+
+!path "..\MovieAppApi.Fixtures\bin\Debug\MovieAppApi.Fixtures.dll"
+
+!|import|
+|VisualTranslator.AcceptanceTests|
+
+*!
+
+!*** DESCRIPTION
+This suite contains specification and acceptance tests of Visual Translator
+
+Visual Translator translates English into Spanish, showing additionally an image of the concept represented by the word. This is supposed to improve learning process.  
+
+*!
+
+!contents -R2 -g

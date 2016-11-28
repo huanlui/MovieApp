@@ -1,0 +1,26 @@
+!1 English to Spanish translation
+
+!***> Initialization
+!|import|
+|VisualTranslator.Fixtures|
+
+*!
+
+!*** Description 
+The system must be able to show the Spanish translation of a given English word. Below, a test table is
+shown in order to check that this requisite is satisfied
+
+*!
+
+!*** Verification
+!|Script|Translate Into Spanish |
+|check|Spanish translation for |house|is|casa|
+|check|Spanish translation for |dog|is|perro|
+|check|Spanish translation for |kiss|is|beso|
+|check|Spanish translation for |blue|is|azul|
+|check|Spanish translation for |book|is|libro|
+
+
+*!
+
+
