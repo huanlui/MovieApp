@@ -22,6 +22,7 @@ namespace MovieApp.Pages
     {
         public MovieDetail()
         {
+            this.DataContext = new MovieDetailModel();
             InitializeComponent();
         }
     }
